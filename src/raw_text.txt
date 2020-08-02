@@ -1,0 +1,19 @@
+Fuzzing (Sutton et al. 2007) is currently the most pop-
+ular vulnerability discovery technique. Fuzzing was first
+proposed by Barton Miller at the University of Wisconsin
+in 1990s. Conceptually, a fuzzing test starts with gen-
+erating massive normal and abnormal inputs to target
+applications, and try to detect exceptions by feeding the
+generated inputs to the target applications and monitor-
+ing the execution states. Compared with other techniques,
+fuzzing is easy to deploy and of good extensibility and
+applicability, and could be performed with or without the
+source code. Besides, as the fuzzing test is performed in
+the real execution, it gains a high accuracy. What’s more,
+fuzzing requires few knowledge of target applications
+and could be easily scaled up to large scale applications.
+Though fuzzing is faced with many disadvantages such
+as low efficiency and low code coverage, however, out-
+weighed the bad ones, fuzzing has become the most effec-
+tive and efficient state-of-the-art vulnerability discovery
+technique currently.
