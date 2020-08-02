@@ -1,1 +1,3 @@
 # ClipboardTextTrimer
+
+从PDF直接复制文字的时候，源文本的行末尾自动带有换行符。为了去除讨厌的换行符，我使用Python写了一个小应用。图形界面由PyQt生成。
